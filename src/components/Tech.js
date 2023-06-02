@@ -3,13 +3,13 @@ import { Container, Row, Col } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import 'react-multi-carousel/lib/styles.css';
 
-import MERN from "../assets/media/MERN.png";
-import DB from "../assets/media/database1.png";
-import brand from "../assets/media/test.png";
-import SEO from "../assets/media/SEO.png";
-import UIUX from "../assets/media/UI.png";
-import FE from "../assets/media/fe.jpg";
-import BE from "../assets/media/backend.png";
+import MERN from "../assets/media/tech6.png";
+import DB from "../assets/media/tech5.jpg";
+import brand from "../assets/media/tech4.jpg";
+import SEO from "../assets/media/tech1.webp";
+import UIUX from "../assets/media/tech2.jpg";
+import FE from "../assets/media/tech7.jpg";
+import BE from "../assets/media/tech3.webp";
 
 
 const Tech = () => {
@@ -41,7 +41,7 @@ const Tech = () => {
                         <h2>
                             My Tech Stack
                         </h2>
-                        <p>Once again this is just some dummy text that I'm writing just for show.<br></br>I'll be changing this once I am done with the site layout.</p>
+                        <p>As a Full Stack Developer, I am well versed in the necessary languages, frameworks, and skills required to create beautiful and responsive web applications.</p>
                         <Carousel responsive={responsive} infinite={true} className="tech-slider">
                             <div className="item">
                                 <img src={MERN} alt="MERN" />

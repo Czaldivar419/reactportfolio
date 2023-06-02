@@ -1,6 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap"
 import {ArrowRightCircle} from "react-bootstrap-icons"
 import headerImg from "../assets/media/headerImg.png"
+import { HashLink } from 'react-router-hash-link';
 
 import { useState, useEffect } from "react"
 
@@ -40,7 +41,18 @@ const Banner = () => {
                 setLoopNum(loopNum + 1);
                 setDelta(500);
             }
-    }
+    };
+
+    const handleConnectClick = () => {
+        const targetElement = document.getElementById('connect');
+        if (targetElement) {
+          window.scrollTo({
+            top: targetElement.offsetTop,
+            behavior: 'smooth',
+          });
+        }
+      };
+
     return (
         <section className="banner" id="home">
             <Container>
@@ -48,8 +60,13 @@ const Banner = () => {
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline">Welcome to my Portfolio</span>
                         <h1>{"Hi, I'm Christian"}<span className="wrap">{text}</span></h1>
-                        <p>Lorem ipsum dummy text and whatever else I will be putting here. For now I dont have anything so Im just typing this.</p>
-                        <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size ={25}/></button>
+                        <p>I am a Full Stack Developer with a strong passion for creating efficient and innovative web applications. 
+                            With expertise in both front and back end technologies,
+                            I am dedicated to continuously learning and staying updated with the latest industry trends. 
+                            Let's work together to bring your projects to life.</p>
+                            <button onClick={handleConnectClick}>
+                                Let's connect <ArrowRightCircle size={25} />
+                            </button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                         <img src={headerImg} alt="Banner Img" />
