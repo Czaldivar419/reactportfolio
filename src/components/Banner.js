@@ -46,7 +46,7 @@ const Banner = () => {
             <Container>
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
-                        <span className="tagline">Welcome to my Shit</span>
+                        <span className="tagline">Welcome to my Portfolio</span>
                         <h1>{"Hi, I'm Christian"}<span className="wrap">{text}</span></h1>
                         <p>Lorem ipsum dummy text and whatever else I will be putting here. For now I dont have anything so Im just typing this.</p>
                         <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size ={25}/></button>
