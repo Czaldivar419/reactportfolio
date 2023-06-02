@@ -15,7 +15,6 @@ import BE from "../assets/media/backend.png";
 const Tech = () => {
     const responsive = {
         superLargeDesktop: {
-          // the naming can be any, depends on you.
           breakpoint: { max: 4000, min: 3000 },
           items: 5
         },
