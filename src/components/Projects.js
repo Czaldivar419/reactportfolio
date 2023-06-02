@@ -25,7 +25,7 @@ const Projects = () => {
             title: "React Portfolio",
             description: "Front End Development",
             imgUrl: project3,
-            href: "https://rialtoflooring.herokuapp.com/"
+            href: "https://christianportfolio.herokuapp.com/"
         },
     ];
 
