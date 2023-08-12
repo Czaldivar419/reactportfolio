@@ -3,12 +3,19 @@ import { ProjectCard } from "./ProjectCard";
 import project1 from "../assets/media/project1.jpg";
 import project2 from "../assets/media/project2.jpg";
 import project3 from "../assets/media/project3.png";
+import protosharp from "../assets/media/protosharp.jpg"
 import colorSharp2 from "../assets/media/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 const Projects = () => {
     const projects = [
+        {
+          title: "Protosharp Industries",
+          description: "Front End Development",
+          imgUrl: protosharp,
+          href: "https://protosharp-jcws.vercel.app/"
+        },
         {
             title: "Rialto Flooring",
             description: "Front End Development",
@@ -22,7 +29,7 @@ const Projects = () => {
             href: "https://github.com/Czaldivar419/Challenge10-Employee-Management-System"
         },
         {
-            title: "React Portfolio",
+            title: "My Portfolio",
             description: "Front End Development",
             imgUrl: project3,
             href: "https://christianportfolio.herokuapp.com/"

@@ -39,7 +39,7 @@ const Tech = () => {
                     <Col>
                     <div className="tech-bx">
                         <h2>
-                            My Tech Stack
+                            My Technologies
                         </h2>
                         <p>As a Full Stack Developer, I am well versed in the necessary languages, frameworks, and skills required to create beautiful and responsive web applications.</p>
                         <Carousel responsive={responsive} infinite={true} className="tech-slider">
